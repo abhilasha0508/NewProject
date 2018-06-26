@@ -4,9 +4,11 @@ public class program1 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ENTER YOUR NAME : ");
+		System.out.println("ENTER YOUR FIRST NAME : ");
 		String name=sc.nextLine();
-	    System.out.println(" HELLO "+name);
+		System.out.println("ENTER YOUR LAST NAME : ");
+		String name2=sc.nextLine();
+	    System.out.println(" HELLO "+name+" "+name2);
 
 	}
 
